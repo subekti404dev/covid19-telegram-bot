@@ -1,7 +1,7 @@
 const covid19data = require('covid19-data');
 const {Telegraf} = require('telegraf');
 const {Markup} = Telegraf;
-const bot = new Telegraf('1242050325:AAF7Arfy1h7BNDR6TF1S7PRAZNxacT-EuNc');
+const bot = new Telegraf('YOUR TOKEN HERE');
 const prettyNum = require('pretty-num').prettyNum;
 
 const menu = Markup.inlineKeyboard([
